@@ -1,25 +1,25 @@
 #saludo{
     font-size: 150px;
+    font-weight: 900;
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    -webkit-text-fill-color: transparent !important;
+    -webkit-text-stroke: 1px white;
 }
 
 .medio{
     font-size: 18pt;
 }
 
-h1 {
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(93,175,166,1) 0%, rgba(85,45,179,1) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px white;
-}
-
 #inicio{
     min-height: 90vh;
 }
 
-#foto-bienvenida{
-    background-image: url('../img/foto.jpg');
-    object-fit: fill;
+*{
+    font-family: Consolas;
+    scroll-behavior: smooth;
+}
+
+#container-bienvenida{
     min-height: 90vh;
 }
