@@ -36,7 +36,7 @@
 
 .carousel-item > img{
     filter: brightness(70%);
-    object-fit: cover;
+    object-fit: contain;
 }
 
 @media (min-width: 1000px) {
@@ -53,4 +53,13 @@
 
 .form-label{
     color: white;
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+.inicio-fade{
+    opacity: 0;
 }
