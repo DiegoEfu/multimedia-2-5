@@ -36,4 +36,17 @@
 
 .carousel-item > img{
     filter: brightness(70%);
+    object-fit: cover;
+}
+
+@media (min-width: 600px) {
+    .carousel-item > img{
+        width: 100%;
+    }        
+}
+
+@media (max-width: 600px) {
+    .carousel-item > img{
+        height: 70vh;
+    }        
 }
