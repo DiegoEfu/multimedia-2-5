@@ -37,7 +37,7 @@
         </div>
       </nav>
 
-      <div class="container bg-dark mb-3 d-flex justify-content-center flex-column" style="margin-top: 16vh;">
+      <div class="container bg-dark mb-5 d-flex justify-content-center flex-column" style="margin-top: 16vh;">
         <div class="section row mb-3" id="inicio">
             <div class="col-lg-4 col-xs-12 d-flex justify-content-center align-items-center" id="container-bienvenida">
               <div sclass="d-flex justify-content-center flex-column">
@@ -185,7 +185,7 @@
           </div>
         </div>
 
-        <div class="section" id="cursos">
+        <div class="section mb-5" id="cursos">
           <h2 class="text-white text-center">Cursos</h2>
           <div class="row g-2">
             <div class="col-xs-12 col-md-4">
@@ -264,7 +264,7 @@
           </div>
         </div>
 
-        <div class="section mt-5" id="proyectos">
+        <div class="section mb-5" id="proyectos">
           <h2 class="text-white text-center">Proyectos</h2>
           <div class="bg-dark">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -399,10 +399,90 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-          </div>          
+          </div>
         </div>
 
+        <div class="section" id="contacto">
+          <h2 class="text-white text-center">Contacto</h2>
+          <form class="row g-3" id="form-contacto">
+            <div class="col-md-6 col-xs-12">
+              <label class="form-label" for="nombre">Nombres*</label>
+              <input type="text" placeholder="Ingrese su o sus nombres." name="nombre" id="nombre" class="form-control" required>
+            </div>
+  
+            <div class="col-md-6 col-xs-12">
+              <label class="form-label" for="apellido">Apellidos*</label>
+              <input type="text" placeholder="Ingrese su o sus apellidos." name="apellido" id="apellido" class="form-control" required>
+            </div>
+  
+            <div class="col-md-6 col-xs-12">
+              <label class="form-label" for="correo">Correo Electrónico*</label>
+              <input type="email" placeholder="Ejemplo: diegofaria@gmail.com" name="correo" id="correo" class="form-control" required>
+            </div> 
+            <div class="col-md-6 col-xs-12">
+              <label class="form-label" for="telefono">Teléfono</label>
+              <input type="text" placeholder="Ejemplo: +584121273360" name="telefono" id="telefono" class="form-control">
+            </div>
+            <div class="col-xs-12">
+              <label class="form-label" for="informacion">Información*</label>
+              <textarea name="informacion" placeholder="Ingrese la información que me desee hacer llegar." id="informacion" class="form-control" required></textarea>
+            </div>
+            <div class="col-3"></div> 
+            <button type="submit" class="btn btn-primary col-6 mt-3 mb-3">Enviar Formulario</button>
+            <div class="col-3"></div> 
+          </form>                  
+        </div>
       </div>
+
+      <footer class="text-center text-lg-start" style="background-color: #444; color: cyan;">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase"><i class="fa-solid fa-wifi"></i> Redes Sociales</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a target="_blank" class="text-white text-center" style="text-decoration: none;" href="https://www.facebook.com/diegoandres.fariabrito/">Facebook <i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a target="_blank" class="text-white text-center" style="text-decoration: none;" href="https://www.instagram.com/diefarib/channel/">Instagram <i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a target="_blank" class="text-white text-center" style="text-decoration: none;" href="https://twitter.com/EfuDev">Twitter <i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a target="_blank" class="text-white text-center" style="text-decoration: none;" href="https://www.linkedin.com/in/diego-faria-aa53bb205/">LinkedIn <i class="fa-brands fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase"><i class="fa-solid fa-terminal"></i> Links Interesantes</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a target="_blank" class="text-white text-center" style="text-decoration: none;" href="mailto:diegoafbrito12@gmail.com">Correo Electrónico <i class="fa-solid fa-envelope"></i></a>
+                </li>
+                <li>
+                  <a target="_blank" class="text-white text-center" style="text-decoration: none;" href="https://www.google.com/maps/@10.6199383,-71.6791893,15z?hl=es">GitHub <i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                  <a target="_blank" class="text-white text-center" style="text-decoration: none;" href="https://www.google.com/maps/@10.6199383,-71.6791893,15z?hl=es">FreeCodeCamp <i class="fa-solid fa-campfire"></i></a>
+                </li>
+                <li>
+                  <a target="_blank" class="text-white text-center" style="text-decoration: none;" href="https://www.google.com/maps/@10.6199383,-71.6791893,15z?hl=es">BitBucket <i class="fa-brands fa-bitbucket"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            </div>
+          </div>
+        </div>
+        <div class="text-center bg-dark text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright Diego Faria. Todos los derechos reservados.
+        </div>
+      </footer>
       
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
@@ -470,6 +550,27 @@
         }
 
         setInterval(updateGradient,10);
+      </script>
+      <script>
+        $('#form-contacto').submit((e) => {
+          e.preventDefault();
+          
+          if(!$('#nombre').val().trim().match(/^[A-Za-z\s]+$/g))
+            alert("El campo de nombres solo debe estar formado por letras y espacios entre palabras.");
+          else if(!$('#apellido').val().trim().match(/^[A-Za-z\s]+$/g))
+            alert("El campo de apellidos solo debe estar formado por letras y espacios entre palabras.");
+          else if($('#email').val() === ''){
+            alert("El email no puede estar vacío.");
+          }
+          else if($('#contenido').val() === ''){
+            alert("El contenido no puede estar vacío.");
+          }
+          else{
+            alert("El formulario ha sido enviado");
+            $('input').val('');
+            $('textarea').val('');
+          }
+        })      
       </script>
       
 </body>
