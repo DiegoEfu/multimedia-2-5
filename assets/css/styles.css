@@ -23,3 +23,17 @@
 #container-bienvenida{
     min-height: 90vh;
 }
+
+.card-hover:hover{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(44,21,98,1) 0%, rgba(35,53,143,1) 47%, rgba(93,175,166,1) 100%);
+}
+
+.carousel-caption{
+    text-shadow: 0 0 10px #000;
+    font-weight: 700;
+    font-size: 25pt;
+}
+
+.carousel-item > img{
+    filter: brightness(70%);
+}
